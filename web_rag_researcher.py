@@ -24,7 +24,10 @@ def scrape(url):
 
 urls = [
     "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "https://www.ibm.com/topics/artificial-intelligence"
+    "https://www.ibm.com/topics/artificial-intelligence",
+    "https://cloud.google.com/learn/what-is-artificial-intelligence",
+    "https://www.britannica.com/technology/artificial-intelligence"
+    
 ]
 
 documents = [scrape(url) for url in urls]
